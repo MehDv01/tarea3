@@ -1,10 +1,113 @@
 #principal{
-    width: 800px;
-    height: 2000px;
+    width: 1260px;
+    height: 560px;
     background-color: aquamarine;
-    margin: 20px;
+    text-align: center;
 }
-#c1{
+#rostro{
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100px;
+}
+#ojo1{
+    width: 30px;
+    height: 50px;
+    background-color:white;
+    display: inline-block;
+    margin-right: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#ojo2{
+    width: 30px;
+    height: 50px;
+    background-color:white;
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#iris1{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    display: inline-block;
+    border-radius: 50%;
+}
+#iris2{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    display: inline-block;
+    margin: auto;
+    border-radius: 50%;
+}
+#nariz{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);    
+    border-radius: 50px;
+}
+#boca{
+    width: 200px;
+    height: 100px;
+    background-color: palevioletred;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    border-radius: 80px;
+}
+#labios{
+    width: 140px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    border-radius: 45px;
+}
+#labios1{
+    width: 100px;
+    height: 5px;
+    background-color: darkred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10%;
+}
+#sombrero_c{
+    height: 100px;
+    width: 150px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+#sombrero_b{
+    height: 30px;
+    width: 300px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+/*#c1{
     width: 200px;
     height: 200px;
     background-color: red;
@@ -39,4 +142,4 @@
     position: relative;
     top: 100px;
     transform: rotate(45deg);
-}
+}*/
